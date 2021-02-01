@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hk's Bank</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="img/favico.png" sizes="516x516" type="image/png">
+</head>
+<body>
+    <div id="login-area">
+        <h1 class="wel-txt-head">Welcome to Hk's Bank</h1>
+        <div class="submit-area">
+            <h4>Login to Enter Bank</h4>
+            <input type="text" class="form-control" placeholder="Enter Your E-mail">
+            <br>
+            <input type="password" placeholder="Enter Your Password" class="form-control" name="" id="">
+            <br>
+            <button id="login-enter" class="btn btn-success">Enter</button>
+        </div>
+    </div>
+    <div id="tran-area">
+        <h1>Transaction Area</h1>
+    </div>
+    <script>
+        const loginBtn = document.getElementById("login-enter");
+        loginBtn.addEventListener("click", function(){
+            const loginArea = document.getElementById("login-area");
+            loginArea.style.display = "none";
+            const transactionArea = document.getElementById("tran-area");
+            transactionArea.style.display = "block";
+        })
+
+</script>
+</body>
+</html>
