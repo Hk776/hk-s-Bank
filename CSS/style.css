@@ -7,7 +7,7 @@ body{
 .submit-area{
     margin-top: 50px;
     border-radius: 20px;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 8px gray;
     padding: 40px;
 
 }
@@ -28,4 +28,8 @@ body{
 }
 .balance{
     background-color: orange;
+}
+.footer{
+    text-align: center;
+    padding-top: 50px;
 }

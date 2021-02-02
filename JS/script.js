@@ -28,6 +28,16 @@ withdrawBtn.addEventListener("click", function(){
     document.getElementById("withdrawAmount").value = "";
 })
 
+// //Form Validation
+// const email = document.getElementById('email')
+// const pass = document.getElementById('pass')
+//    loginBtn.addEventListener("login-enter", (e) => {
+//     let messages = []
+//     if (email.value === '' || email.value == null){
+//         messages.push('Name is Required')
+//     }
+//    })
+
 function getInputNum(id){
     const amount = document.getElementById(id).value;
     const amountNum = parseFloat(amount);
